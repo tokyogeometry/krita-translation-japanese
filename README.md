@@ -1,0 +1,1 @@
+# krita-l10n-ja
