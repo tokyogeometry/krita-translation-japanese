@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-29 08:55+0200\n"
-"PO-Revision-Date: 2021-07-30 23:18+0900\n"
+"PO-Revision-Date: 2021-07-31 00:29+0900\n"
 "Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -10056,7 +10056,7 @@ msgstr "アルファを保護"
 #, kde-format
 msgctxt "action"
 msgid "Use Pen Pressure"
-msgstr "ペンタブの筆圧を使用する"
+msgstr "ペンタブの筆圧を使用"
 
 #. i18n: context: Action (hmirror_action), Actions (Painting), ActionCollection (Krita)
 #. i18n: context: Action (hmirror_action), Actions (Painting), ActionCollection (Krita)
@@ -24878,7 +24878,7 @@ msgstr "マトリクスウィジェット"
 #: libs/ui/forms/KisDetailsPaneBase.ui:156
 #, kde-format
 msgid "Always use this template at application start up"
-msgstr "アプリケーションの起動時に常にこのテンプレートを使用する"
+msgstr "アプリケーションの起動時に常にこのテンプレートを使用"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_alwaysUseCheckBox)
 #. +> trunk5 stable5
@@ -26673,8 +26673,8 @@ msgid ""
 "Use Zip64 (for very large files: cannot be opened in versions of Krita older "
 "than 4.2.0)"
 msgstr ""
-"Zip64 を使用する (大容量ファイルの場合: 4.2.0 以前のバージョンの Krita では開"
-"けません)"
+"Zip64 を使用 (大容量ファイルの場合: 4.2.0 以前のバージョンの Krita では開けま"
+"せん)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkCompressKra)
 #. +> trunk5 stable5
@@ -32741,7 +32741,7 @@ msgstr "この新しいテンプレートをデフォルトとして使う"
 #: libs/ui/KisTemplateCreateDia.cpp:153
 #, kde-format
 msgid "Use the new template every time Krita starts"
-msgstr "Krita を起動するときは常にこの新しいテンプレートを使用する"
+msgstr "Krita を起動するときは常にこの新しいテンプレートを使用"
 
 #. +> trunk5 stable5
 #: libs/ui/KisTemplateCreateDia.cpp:285
@@ -32816,7 +32816,7 @@ msgstr "利用可能な写真はありません。"
 #: libs/ui/KisTemplatesPane.cpp:39
 #, kde-format
 msgid "Use This Template"
-msgstr "このテンプレートを使用する"
+msgstr "このテンプレートを使用"
 
 #. +> trunk5 stable5
 #: libs/ui/KisView.cpp:671
@@ -37704,7 +37704,7 @@ msgstr "ショートカットを設定(&H)..."
 #: libs/widgetutils/config/kstandardaction_p.h:90
 #, kde-format
 msgid "&Configure %1..."
-msgstr "%1を設定(&C)..."
+msgstr "%1 を設定(&C)..."
 
 #. +> trunk5 stable5
 #: libs/widgetutils/config/kstandardaction_p.h:91
@@ -46702,25 +46702,25 @@ msgstr "ガウシアンぼかし"
 #: plugins/filters/blur/kis_lens_blur_filter.cpp:33
 #, kde-format
 msgid "&Lens Blur..."
-msgstr "レンズぼやけ(&L)..."
+msgstr "レンズぼかし(&L)..."
 
 #. +> trunk5 stable5
 #: plugins/filters/blur/kis_lens_blur_filter.h:30
 #, kde-format
 msgid "Lens Blur"
-msgstr "レンズぼやけ"
+msgstr "レンズぼかし"
 
 #. +> trunk5 stable5
 #: plugins/filters/blur/kis_motion_blur_filter.cpp:33
 #, kde-format
 msgid "&Motion Blur..."
-msgstr "モーションぼやけ(&M)..."
+msgstr "モーションぼかし(&M)..."
 
 #. +> trunk5 stable5
 #: plugins/filters/blur/kis_motion_blur_filter.h:30
 #, kde-format
 msgid "Motion Blur"
-msgstr "モーションぼやけ"
+msgstr "モーションぼかし"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbHShape)
 #. i18n: ectx: property (text), item, widget (KComboBox, cbVShape)
@@ -56698,7 +56698,7 @@ msgstr "カーブ線と主描線の距離:"
 #: plugins/paintops/sketch/wdgsketchoptions.ui:114
 #, kde-format
 msgid "Use distance density"
-msgstr "距離密度を使用する"
+msgstr "距離密度を使用"
 
 #. i18n: ectx: property (text), widget (QCheckBox, simpleModeCHBox)
 #. +> trunk5 stable5
