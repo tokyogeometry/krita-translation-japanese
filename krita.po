@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-07-29 08:55+0200\n"
-"PO-Revision-Date: 2021-07-31 00:29+0900\n"
+"PO-Revision-Date: 2021-08-05 23:54+0900\n"
 "Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -11780,8 +11780,8 @@ msgid ""
 "If checked, layer becomes pinned to the timeline, making it visible even "
 "when inactive."
 msgstr ""
-"チェックすると、レイヤーはタイムラインに固定され、アクティブでない場合でも表"
-"示されます。"
+"オンにすると、レイヤーはタイムラインに固定され、アクティブでない場合でも表示"
+"されます。"
 
 #. i18n: context: Action (insert_keyframe_left), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12352,10 +12352,10 @@ msgstr "次のレイヤーをアクティブ化"
 #. i18n: context: Action (activateNextSiblingLayer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2302
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Activate next sibling layer, skipping over groups."
-msgstr "次の兄弟レイヤーをアクティブにし、グループをスキップします。"
+msgstr "グループをスキップして、次の兄弟レイヤーをアクティブにします。"
 
 #. i18n: context: Action (activateNextSiblingLayer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12363,7 +12363,7 @@ msgstr "次の兄弟レイヤーをアクティブにし、グループをスキ
 #, kde-format
 msgctxt "action"
 msgid "Activate next sibling layer"
-msgstr "次の兄弟レイヤーをアクティブ化"
+msgstr "次の兄弟レイヤーをアクティブにする"
 
 #. i18n: context: Action (activatePreviousLayer), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (activatePreviousLayer), Actions (Layers), ActionCollection (Krita)
@@ -12382,7 +12382,7 @@ msgstr "前のレイヤーをアクティブ化"
 #, kde-format
 msgctxt "action"
 msgid "Activate previous sibling layer, skipping over groups."
-msgstr "前の兄弟レイヤーをアクティブにし、グループをスキップします。"
+msgstr "グループをスキップして、前の兄弟レイヤーをアクティブにします。"
 
 #. i18n: context: Action (activatePreviousSiblingLayer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12390,7 +12390,7 @@ msgstr "前の兄弟レイヤーをアクティブにし、グループをスキ
 #, kde-format
 msgctxt "action"
 msgid "Activate previous sibling layer"
-msgstr "前の兄弟レイヤーをアクティブ化"
+msgstr "前の兄弟レイヤーをアクティブにする"
 
 #. i18n: context: Action (switchToPreviouslyActiveNode), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: Action (switchToPreviouslyActiveNode), Actions (Layers), ActionCollection (Krita)
@@ -12401,7 +12401,7 @@ msgstr "前の兄弟レイヤーをアクティブ化"
 #, kde-format
 msgctxt "action"
 msgid "Activate previously selected layer"
-msgstr "前に選択したレイヤーをアクティブ化"
+msgstr "以前に選択したレイヤーをアクティブにする"
 
 #. i18n: context: Action (add_new_group_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12585,7 +12585,7 @@ msgstr "ローカル選択"
 #, kde-format
 msgctxt "action"
 msgid "&Isolate Active Layer"
-msgstr "アクティブなレイヤーのみを表示(&I)"
+msgstr "編集中のレイヤーのみを表示(&I)"
 
 #. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12593,7 +12593,7 @@ msgstr "アクティブなレイヤーのみを表示(&I)"
 #, kde-format
 msgctxt "action"
 msgid "Isolate Active Layer"
-msgstr "アクティブなレイヤーのみを表示"
+msgstr "編集中のレイヤーのみを表示"
 
 #. i18n: context: Action (isolate_active_group), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12601,7 +12601,7 @@ msgstr "アクティブなレイヤーのみを表示"
 #, kde-format
 msgctxt "action"
 msgid "&Isolate Active Group"
-msgstr "アクティブなグループのみを表示(&I)"
+msgstr "編集中のグループのみを表示(&I)"
 
 #. i18n: context: Action (isolate_active_group), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12609,7 +12609,7 @@ msgstr "アクティブなグループのみを表示(&I)"
 #, kde-format
 msgctxt "action"
 msgid "Isolate Active Group"
-msgstr "アクティブなグループのみを表示"
+msgstr "編集中のグループのみを表示"
 
 #. i18n: context: Action (toggle_layer_lock), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -14469,12 +14469,10 @@ msgstr "カーソル位置に貼り付け"
 #. i18n: context: Action (paste_into), Actions (Edit), ActionCollection (Menu)
 #. +> trunk5 stable5
 #: krita/kritamenu.action:373 krita/kritamenu.action:375
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Isolate Active Layer"
+#, kde-format
 msgctxt "action"
 msgid "Paste into Active Layer"
-msgstr "アクティブなレイヤーのみを表示"
+msgstr "現在のレイヤーに貼り付け"
 
 #. i18n: context: Action (paste_new), Actions (Edit), ActionCollection (Menu)
 #. +> trunk5 stable5
@@ -14704,7 +14702,7 @@ msgstr "表示"
 #, kde-format
 msgctxt "action"
 msgid "&Show Canvas Only"
-msgstr "キャンバスのみを表示(&S)"
+msgstr "キャンバスオンリーモード(&S)"
 
 #. i18n: context: Action (view_show_canvas_only), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
@@ -14754,7 +14752,7 @@ msgstr "キャンバスを別のウィンドウに表示する"
 #, kde-format
 msgctxt "action"
 msgid "&Wrap Around Mode"
-msgstr "ラップアラウンドモード(&W)"
+msgstr "敷き詰め表示モード(&W)"
 
 #. i18n: context: Action (wrap_around_mode), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
@@ -14762,7 +14760,7 @@ msgstr "ラップアラウンドモード(&W)"
 #, kde-format
 msgctxt "action"
 msgid "Wrap Around Mode"
-msgstr "ラップアラウンドモード"
+msgstr "敷き詰め表示モード"
 
 #. i18n: context: Action (level_of_detail_mode), Actions (View), ActionCollection (Menu)
 #. +> trunk5 stable5
@@ -16492,7 +16490,7 @@ msgstr "角度スナップデルタ:"
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:555
 #, kde-format
 msgid "Activate angle snap:"
-msgstr "角度スナップをアクティブ化:"
+msgstr "角度スナップを有効化:"
 
 #. +> trunk5 stable5
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:563
@@ -16972,7 +16970,7 @@ msgstr "%1 オプション"
 #: libs/flake/KoToolManager.cpp:551
 #, kde-format
 msgid "Active tool: %1"
-msgstr "アクティブなツール: %1"
+msgstr "使用中のツール: %1"
 
 #. +> trunk5 stable5
 #: libs/flake/text/KoSvgTextShape.cpp:572
@@ -18140,7 +18138,7 @@ msgstr "結果を更新"
 #: libs/image/kis_layer_properties_icons.cpp:30
 #, kde-format
 msgid "Edit Key Strokes"
-msgstr "制御描線の編集"
+msgstr "色指定用ストロークを編集"
 
 #. +> trunk5 stable5
 #: libs/image/kis_layer_properties_icons.cpp:31
@@ -18581,13 +18579,13 @@ msgstr "ビロード(レイヤースタイル)"
 #: libs/image/lazybrush/kis_colorize_mask.cpp:938
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
-msgstr "制御描線の色を変更"
+msgstr "色指定用ストロークの色を変更"
 
 #. +> trunk5 stable5
 #: libs/image/lazybrush/kis_colorize_mask.cpp:965
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
-msgstr "制御描線を削除"
+msgstr "色指定用ストロークを削除"
 
 #. +> trunk5 stable5
 #: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:73
@@ -18755,24 +18753,20 @@ msgid ""
 "The image has <b>more than one layer or a mask or an active selection</b>. "
 "Only the flattened image will be saved."
 msgstr ""
-"画像には、<b>複数のレイヤー、マスク、またはアクティブな選択</b>があります。統"
-"合された画像のみが保存されます。"
+"画像には、<b>レイヤー、マスク、またはアクティブな選択</b>が複数あります。統合"
+"された内容のみが画像として保存されます。"
 
 #. +> trunk5 stable5
 #: libs/impex/MultiTransparencyMaskCheck.h:25
-#, fuzzy, kde-format
-#| msgctxt "image conversion warning"
-#| msgid ""
-#| "The image has <b>more than one layer or a mask or an active selection</"
-#| "b>. Only the flattened image will be saved."
+#, kde-format
 msgctxt "image conversion warning"
 msgid ""
 "The image has <b>more than one transparency mask on a layer</b>. For all "
 "layers that have multiple transparency masks, only the rendered result will "
 "be saved."
 msgstr ""
-"画像には、<b>複数のレイヤー、マスク、またはアクティブな選択</b>があります。統"
-"合された画像のみが保存されます。"
+"画像には、<b>複数の透過マスクを持つレイヤー</b>があります。こうしたレイヤーは"
+"すべて、最終的に合成された内容のみが保存されます。"
 
 #. +> trunk5 stable5
 #: libs/impex/NodeTypeCheck.h:25
@@ -21443,7 +21437,7 @@ msgstr "レイヤースタイル"
 #: libs/ui/actions/KisTransformToolActivationCommand.cpp:16
 msgctxt "(qtundo-format)"
 msgid "Activate transform tool"
-msgstr "変形ツールをアクティブ化"
+msgstr "変形ツールを有効化"
 
 #. +> trunk5 stable5
 #: libs/ui/animation/KisAnimationRender.cpp:48
@@ -23320,10 +23314,7 @@ msgstr "回転: %1° "
 msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
 "To visualize wrap-around mode, enable OpenGL."
-msgstr ""
-"ラップアラウンドモードをアクティブ化していますが、OpenGL を使えるようになって"
-"いません。\n"
-"ラップアラウンドモードを視覚化するには OpenGL を使用可能にしてください。"
+msgstr "OpenGL が有効化されていないため、敷き詰め表示モードに移行できません。"
 
 #. +> trunk5 stable5
 #: libs/ui/canvas/kis_canvas_controller.cpp:269
@@ -23335,7 +23326,7 @@ msgstr "高速プレビューモード: %1"
 #: libs/ui/canvas/kis_canvas_controller.cpp:276
 #, kde-format
 msgid "Instant Preview is only supported with OpenGL activated"
-msgstr "高速プレビューは OpenGL がアクティブな時のみにサポートされます"
+msgstr "高速プレビューは OpenGL が有効化されている時にのみサポートされます"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFilterMode)
 #. +> trunk5 stable5
@@ -24418,13 +24409,13 @@ msgstr "タブレット"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1736
 #, kde-format
 msgid "Canvas-only settings"
-msgstr "キャンバスのみ表示の設定"
+msgstr "キャンバスオンリーモードの設定"
 
 #. +> trunk5 stable5
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1738
 #, kde-format
 msgid "Canvas-only"
-msgstr "キャンバスのみ表示"
+msgstr "キャンバスオンリーモード"
 
 #. +> trunk5 stable5
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1746
@@ -25545,7 +25536,7 @@ msgstr ""
 msgid ""
 "Enforce palette colors: always select the nearest color from the active "
 "palette."
-msgstr "パレット色を強制: アクティブなパレットから最も近い色を常に選択します。"
+msgstr "パレット色を強制: 選択中のパレットから最も近い色を常に選びます。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseSystemMonitorProfile)
 #. +> trunk5 stable5
@@ -26237,8 +26228,7 @@ msgstr "XML"
 #: libs/ui/forms/wdgfullscreensettings.ui:21
 #, kde-format
 msgid "Select which parts of Krita will be hidden in canvas-only mode."
-msgstr ""
-"キャンバスのみ表示モードで Krita のどの部分が表示されなくなるかを選択します。"
+msgstr "キャンバスオンリーモードで非表示にする部分を選択します。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMenu)
 #. +> trunk5 stable5
@@ -26513,7 +26503,7 @@ msgstr "タッチによる描画を有効化"
 #: libs/ui/forms/wdggeneralsettings.ui:465
 #, kde-format
 msgid "Activate transform tool after pasting"
-msgstr "ペースト後に変形ツールをアクティブ化"
+msgstr "貼り付け後に変形ツールを有効化"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableTouchRotation)
 #. +> trunk5 stable5
@@ -27311,8 +27301,7 @@ msgstr "色空間:"
 #. i18n: ectx: property (text), widget (QLabel, lblProfileTitle)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdglayerproperties.ui:138
-#, fuzzy, kde-format
-#| msgid "Profile:"
+#, kde-format
 msgctxt "Label of ICC Color Profile in Layer Properties dialogue"
 msgid "Profile:"
 msgstr "プロファイル:"
@@ -27327,8 +27316,7 @@ msgstr "色ラベル:"
 #. i18n: ectx: property (text), widget (QLabel, lblDimensionsTitle)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdglayerproperties.ui:196
-#, fuzzy, kde-format
-#| msgid "Dimensions:"
+#, kde-format
 msgctxt "Label of Dimensions as in Layer Position"
 msgid "Dimensions:"
 msgstr "寸法:"
@@ -27345,7 +27333,7 @@ msgstr "プロパティ"
 #: libs/ui/forms/wdglayerproperties.ui:258
 #, kde-format
 msgid "Select the set of active channels."
-msgstr "アクティブチャンネルを選択"
+msgstr "アクティブなチャンネルのセットを選択します。"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, grpActiveChannels)
 #. +> trunk5 stable5
@@ -30024,49 +30012,43 @@ msgstr "確認"
 #: libs/ui/input/kis_tool_invocation_action.cpp:44
 #, kde-format
 msgid "Activate Line Tool"
-msgstr "直線ツールをアクティブ化"
+msgstr "直線ツールを有効化"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_tool_invocation_action.cpp:45
-#, fuzzy, kde-format
-#| msgid "Activate Line Tool"
+#, kde-format
 msgid "Activate Ellipse Tool"
-msgstr "直線ツールをアクティブ化"
+msgstr "楕円ツールを有効化"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_tool_invocation_action.cpp:46
-#, fuzzy, kde-format
-#| msgid "Activate Line Tool"
+#, kde-format
 msgid "Activate Rectangle Tool"
-msgstr "直線ツールをアクティブ化"
+msgstr "矩形ツールを有効化"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_tool_invocation_action.cpp:47
-#, fuzzy, kde-format
-#| msgid "Activate Line Tool"
+#, kde-format
 msgid "Activate Move Tool"
-msgstr "直線ツールをアクティブ化"
+msgstr "移動ツールを有効化"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_tool_invocation_action.cpp:48
-#, fuzzy, kde-format
-#| msgid "Activate Line Tool"
+#, kde-format
 msgid "Activate Fill Tool"
-msgstr "直線ツールをアクティブ化"
+msgstr "塗りつぶしツールを有効化"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_tool_invocation_action.cpp:49
-#, fuzzy, kde-format
-#| msgid "Activate Line Tool"
+#, kde-format
 msgid "Activate Gradient Tool"
-msgstr "直線ツールをアクティブ化"
+msgstr "グラデーションツールを有効化"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_tool_invocation_action.cpp:50
-#, fuzzy, kde-format
-#| msgid "Activate Line Tool"
+#, kde-format
 msgid "Activate Measure Tool"
-msgstr "直線ツールをアクティブ化"
+msgstr "計測ツールを有効化"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_tool_invocation_action.cpp:51
@@ -30179,10 +30161,9 @@ msgstr "キャンバスの倍率を変更して回転"
 
 #. +> trunk5 stable5
 #: libs/ui/input/KisCanvasOnlyAction.cpp:16
-#, fuzzy, kde-format
-#| msgid "Show Canvas Only"
+#, kde-format
 msgid "Toggle Canvas Only"
-msgstr "キャンバスのみを表示"
+msgstr "キャンバスオンリーモードを切り替え"
 
 #. +> trunk5 stable5
 #: libs/ui/input/KisCanvasOnlyAction.cpp:17
@@ -30290,7 +30271,7 @@ msgstr "前回使用"
 #: libs/ui/kis_change_file_layer_command.h:22
 msgctxt "(qtundo-format)"
 msgid "Change File Layer"
-msgstr "フィルタレイヤーを変更"
+msgstr "ファイル参照レイヤーを変更"
 
 #. +> trunk5 stable5
 #: libs/ui/kis_clipboard.cc:292
@@ -30497,7 +30478,7 @@ msgstr "塗りつぶしレイヤーのプロパティ"
 #: libs/ui/kis_layer_manager.cc:294
 #, kde-format
 msgid "File Layer Properties"
-msgstr "ファイルレイヤーのプロパティ"
+msgstr "ファイル参照レイヤーのプロパティ"
 
 #. +> trunk5 stable5
 #: libs/ui/kis_layer_manager.cc:303 libs/ui/kis_layer_manager.cc:892
@@ -30537,7 +30518,7 @@ msgstr ""
 #: libs/ui/kis_layer_manager.cc:493
 msgctxt "(qtundo-format)"
 msgid "Convert to a file layer"
-msgstr "ファイルレイヤーに変換"
+msgstr "ファイル参照レイヤーに変換"
 
 #. +> trunk5 stable5
 #: libs/ui/kis_layer_manager.cc:610
@@ -30990,7 +30971,7 @@ msgstr "キャンバスを左右反転"
 #: libs/ui/kis_popup_palette.cpp:176
 #, kde-format
 msgid "Canvas Only"
-msgstr "キャンバスのみ表示"
+msgstr "キャンバスオンリーモード"
 
 #. +> trunk5 stable5
 #: libs/ui/kis_popup_palette.cpp:180
@@ -31602,7 +31583,7 @@ msgstr "Krita を開くセッションの名前"
 #: libs/ui/KisApplicationArguments.cpp:85
 #, kde-format
 msgid "Start Krita in canvas-only mode"
-msgstr "キャンバスのみ表示モードで Krita を起動します"
+msgstr "キャンバスオンリーモードで Krita を起動します"
 
 #. +> trunk5 stable5
 #: libs/ui/KisApplicationArguments.cpp:86
@@ -32501,11 +32482,10 @@ msgstr "スペーサーを拡大"
 
 #. +> trunk5 stable5
 #: libs/ui/KisNodeActivationActionCreatorVisitor.cpp:26
-#, fuzzy, kde-format
-#| msgid "Activate"
+#, kde-format
 msgctxt "A temporary action that actives a layer or mask"
 msgid "Activate %1"
-msgstr "アクティブ化"
+msgstr "%1 を有効化"
 
 #. +> trunk5 stable5
 #: libs/ui/KisOpenPane.cpp:171
@@ -32909,7 +32889,7 @@ msgid ""
 "Going into Canvas-Only mode.\n"
 "Press %1 to go back."
 msgstr ""
-"キャンバスのみ表示モードに移行する\n"
+"キャンバスオンリーモードに移行します。\n"
 "戻るには %1 を押してください。"
 
 #. +> trunk5 stable5
@@ -34153,8 +34133,8 @@ msgid ""
 "Shape selection does not fully support wraparound mode. Please use pixel "
 "selection instead"
 msgstr ""
-"形状選択はラップアラウンドモードを完全にはサポートしていません。代わりにピク"
-"セル選択を使用してください"
+"形状選択は敷き詰め表示モードを完全にはサポートしていません。代わりにピクセル"
+"選択を使用してください"
 
 #. +> trunk5 stable5
 #: libs/ui/tool/kis_selection_tool_helper.cpp:346
@@ -34221,7 +34201,7 @@ msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr ""
-"ブラシツールはこのレイヤーには描画できません。ペイントレイヤーかマスクを選択"
+"ブラシツールではこのレイヤーに描画できません。ペイントレイヤーかマスクを選択"
 "してください。"
 
 #. +> trunk5 stable5
@@ -35736,9 +35716,8 @@ msgid ""
 "This document will be %1 pixels by %2 pixels in %3, which means the pixel "
 "size is %4 bit. A single paint layer will thus take up %5 of RAM."
 msgstr ""
-"このドキュメントは %3 (%1 ピクセル x %2 ピクセル)になります。これはピクセルサ"
-"イズが %4 ビットであることを意味します。単一のペイントレイヤが %5 のメモリを"
-"消費します。"
+"%1 ピクセル x %2 ピクセルのドキュメントを %3 で作成します。ピクセルごとのビッ"
+"ト数は %4 です。ペイントレイヤー一枚につき %5 のメモリを消費します。"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/kis_filter_selector_widget.cc:157
@@ -40707,9 +40686,7 @@ msgstr "右 / 後"
 #: plugins/dockers/arrangedocker/arrange_docker_widget.ui:36
 #, kde-format
 msgid "Activate the Select Shapes Tool to arrange objects."
-msgstr ""
-"オブジェクトを整列するには、形状選択ツール(Select Shapes Tool)をアクティブに"
-"します。"
+msgstr "オブジェクトを整列するには、形状選択ツールを有効化します。"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. +> trunk5 stable5
@@ -43878,8 +43855,8 @@ msgid ""
 "active layer.</p></body></html>"
 msgstr ""
 "<html><head/><body><p><span style=\" font-weight:600;\">色に従ってレイヤーを"
-"分割します</span></p><p>アクティブなレイヤーのすべての色に対して、新たなレイ"
-"ヤーが作成されます。</p></body></html>"
+"分割します</span></p><p>選択中のレイヤーのすべての色に対して、新たなレイヤー"
+"が作成されます。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5 stable5
@@ -45603,29 +45580,23 @@ msgstr "リソースライブラリを管理"
 
 #. +> trunk5 stable5
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:137
-#, fuzzy, kde-format
-#| msgid "Import"
+#, kde-format
 msgctxt "In bundle manager; press button to import a resource library"
 msgid "Import"
 msgstr "インポート"
 
 #. +> trunk5 stable5
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:142
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "In bundle manager; press button to deactivate the bundle (remove "
-#| "resources from the bundle from the available resources)"
-#| msgid "Deactivate"
+#, kde-format
 msgctxt ""
 "In bundle manager; press button to deactivate the resource library(remove "
 "resources from the resource library from the available resources)"
 msgid "Deactivate"
-msgstr "非アクティブ化"
+msgstr "無効化"
 
 #. +> trunk5 stable5
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:146
-#, fuzzy, kde-format
-#| msgid "Create Bundle"
+#, kde-format
 msgctxt "In bundle manager; press button to create a new bundle"
 msgid "Create Bundle"
 msgstr "バンドルを新規作成する"
@@ -45643,10 +45614,9 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:197
-#, fuzzy, kde-format
-#| msgid "Create a resource library"
+#, kde-format
 msgid "Choose the resource library to import"
-msgstr "リソースライブラリを作成する"
+msgstr "インポートするリソースライブラリを選択"
 
 #. +> trunk5 stable5
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:203
@@ -45667,8 +45637,7 @@ msgstr "そのファイル名は既に存在しています。上書きします
 
 #. +> trunk5 stable5
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:217
-#, fuzzy, kde-format
-#| msgid "Warning"
+#, kde-format
 msgctxt "@ttile:window"
 msgid "Warning"
 msgstr "警告"
@@ -45680,7 +45649,7 @@ msgctxt ""
 "In bundle manager; press button to deactivate the bundle (remove resources "
 "from the bundle from the available resources)"
 msgid "Deactivate"
-msgstr "非アクティブ化"
+msgstr "無効化"
 
 #. +> trunk5 stable5
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:319
@@ -46385,7 +46354,7 @@ msgstr ""
 #: plugins/extensions/separate_channels/wdg_separations.ui:140
 #, kde-format
 msgid "Activate the current channel"
-msgstr "現在のチャンネルをアクティブ化"
+msgstr "現在のチャンネルを有効化"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
 #. +> trunk5 stable5
@@ -53830,8 +53799,8 @@ msgid ""
 "When checked, clone from all visible layers. Otherwise, clone from the "
 "active layer."
 msgstr ""
-"チェックすると、表示されているすべてのレイヤーから複製します。そうでない場合"
-"はアクティブなレイヤーから複製します。"
+"オンにすると、表示されているすべてのレイヤーから複製します。そうでない場合は"
+"編集中のレイヤーから複製します。"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCloneProjection)
 #. +> trunk5 stable5
@@ -55831,7 +55800,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:28
 #, no-c-format, kde-format
 msgid "(0° is active color)"
-msgstr "(0°がアクティブな色です)"
+msgstr "(0°が選択中の色です)"
 
 #. +> trunk5 stable5
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:19
@@ -55859,7 +55828,7 @@ msgstr "色相 (時計回り方向)"
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:82
 #, no-c-format, kde-format
 msgid "(50% is active color)"
-msgstr "(50%がアクティブな色の位置です)"
+msgstr "(50%が選択中の色です)"
 
 #. +> trunk5 stable5
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:45
@@ -57266,7 +57235,7 @@ msgstr ""
 #. +> trunk5 stable5
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:229
 msgid "Set Margins from Active Selection"
-msgstr "アクティブな選択範囲から余白を設定"
+msgstr "現在の選択範囲から余白を設定"
 
 #. +> trunk5 stable5
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:236
@@ -59734,13 +59703,10 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: plugins/python/tenbrushes/uitenbrushes.py:23
-#, fuzzy
-#| msgid ""
-#| "&Activate previous brush when pressing the shortcut for the second time"
 msgid ""
 "&Activate previous brush preset when pressing the shortcut for the second "
 "time"
-msgstr "ショートカットを2回押すとその前使用したブラシをアクティブにする(&A)"
+msgstr "ショートカットを 2 回押すと以前使用したブラシに切り替える(&A)"
 
 #. +> trunk5 stable5
 #: plugins/python/tenbrushes/uitenbrushes.py:28
@@ -62644,7 +62610,7 @@ msgstr "ダイナミックブラシツール"
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.cpp:48
 msgctxt "(qtundo-format)"
 msgid "Colorize Mask Key Stroke"
-msgstr "自動塗り分けマスク制御描線"
+msgstr "自動塗り分けマスク色指定"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.h:84
@@ -62673,7 +62639,7 @@ msgstr ""
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:116
 #, kde-format
 msgid "Gap close hint: "
-msgstr "閉空間の目安間隔: "
+msgstr "隙間閉じ: "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:119
@@ -62683,14 +62649,14 @@ msgid ""
 "The mask will try to close non-closed contours if the gap is smaller than "
 "\"Gap close hint\" value"
 msgstr ""
-"同色線の間隔が「閉空間の目安間隔」の値より小さい場合、ツールはその個所がつな"
-"がった線であると判断します"
+"同色の線の間隔が「隙間閉じ」の値より小さい場合、その箇所がつながっていると判"
+"断します"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:124
 #, kde-format
 msgid "Clean up: "
-msgstr "塗り分け線を整理: "
+msgstr "クリーンアップ: "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:127
@@ -62700,8 +62666,8 @@ msgid ""
 "The mask will try to remove parts of the key strokes that are placed outside "
 "the closed contours. 0% - no effect, 100% - max effect"
 msgstr ""
-"マスクは、閉じた輪郭の外側に配置された 塗り分け線の一部を削除しようとします。"
-"0% - 効果なし、100%-最大効果"
+"マスクを使って、輪郭線からはみ出した色指定用ストロークの除去を試みます。0% = "
+"効果なし、100% = 最大効果"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoUpdates)
 #. +> trunk5 stable5
@@ -62715,28 +62681,28 @@ msgstr "自動更新"
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:39
 #, kde-format
 msgid "Edit key strokes"
-msgstr "制御描線を編集"
+msgstr "色指定用ストロークを編集"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowOutput)
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:46
 #, kde-format
 msgid "Show output"
-msgstr "出力を表示"
+msgstr "出力結果を表示"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLimitToDevice)
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:53
 #, kde-format
 msgid "Limit to layer bounds"
-msgstr "レイヤーの境界に制限"
+msgstr "レイヤーのサイズに制限"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. +> trunk5 stable5
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.ui:119
 #, kde-format
 msgid "Key Strokes"
-msgstr "制御描線"
+msgstr "色指定用ストローク"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnTransparent)
 #. +> trunk5 stable5
@@ -62800,7 +62766,7 @@ msgstr "折れ線ツール Shift+クリックで折れ線を終了"
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch.cpp:133
 #, kde-format
 msgid "Select a paint layer to use this tool"
-msgstr "このツールを使ってペイントレイヤーを選択します"
+msgstr "このツールを使用するにはペイントレイヤーを選択します"
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch.cpp:172
@@ -62947,7 +62913,8 @@ msgstr "普通のレイヤーは変形ツールを使用できません"
 msgctxt "floating message in transformation tool"
 msgid "Layer type cannot use the transform tool. Use transform mask instead."
 msgstr ""
-"レイヤー形式は変形ツールを使用できません。代わりに変形マスクを使用します。"
+"レイヤー形式は変形ツールを使用できません。代わりに変形マスクを使用してくださ"
+"い。"
 
 #. +> trunk5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:868
@@ -62963,7 +62930,7 @@ msgstr ""
 #, kde-format
 msgctxt "floating message in transformation tool"
 msgid "Selections are not used when editing transform masks "
-msgstr "変形マスクの編集中は選択は使用しません"
+msgstr "変形マスクの編集中は選択は使用しません "
 
 #. +> trunk5 stable5
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:966
