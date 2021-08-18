@@ -1,17 +1,19 @@
 # krita-l10n-ja
 
-Kritaを非公式に日本語化しています。
+Krita の非公式な日本語化パッチを制作しています。
 
-krita.poをダウンロードし、
+https://github.com/tokyogeometry/krita-l10n-ja/raw/main/krita.po
+
+上記リンクを右クリックして krita.po ファイルとして保存し、
 
 https://po2mo.net/
 
-などで.mo形式に変換し、以下のフォルダに格納することで使用できます。(旧ファイルのバックアップをおすすめします)
+などで .mo 形式に変換、以下のフォルダに格納することで使用できます。(旧ファイルのバックアップをおすすめします)
 
-<kritaのインストールフォルダ>\bin\locale\ja\LC_MESSAGES\
+<kritaのインストールフォルダ>\bin\locale\ja\LC_MESSAGES\>
 
 ----------------
 
 オリジナルの .po ファイルは以下の URL から取得しています。
 
-https://websvn.kde.org/trunk/l10n-support/ja/summit/messages/krita/krita._desktop_.po?view=log
+https://websvn.kde.org/trunk/l10n-support/ja/summit/messages/krita/
