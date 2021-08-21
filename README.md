@@ -10,7 +10,7 @@ https://po2mo.net/
 
 などで .mo 形式に変換、以下のフォルダに格納することで使用できます。(旧ファイルのバックアップをおすすめします)
 
-<kritaのインストールフォルダ>\bin\locale\ja\LC_MESSAGES\>
+<kritaのインストールフォルダ>\bin\locale\ja\LC_MESSAGES\
 
 ----------------
 
