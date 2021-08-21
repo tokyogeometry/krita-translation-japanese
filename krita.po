@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-17 10:11+0200\n"
-"PO-Revision-Date: 2021-08-21 14:35+0900\n"
+"PO-Revision-Date: 2021-08-21 21:06+0900\n"
 "Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -24999,7 +24999,7 @@ msgstr "はじめる"
 #: libs/ui/forms/KisWelcomePage.ui:380 libs/ui/KisWelcomePageWidget.cpp:365
 #, kde-format
 msgid "User Community"
-msgstr "ユーザ コミュニティ"
+msgstr "ユーザーコミュニティ"
 
 #. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
 #. +> trunk5 stable5
@@ -25046,10 +25046,9 @@ msgstr "ニュース"
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnNewsOptions)
 #. +> trunk5 stable5
 #: libs/ui/forms/KisWelcomePage.ui:913
-#, fuzzy, kde-format
-#| msgid "No options"
+#, kde-format
 msgid "News options"
-msgstr "オプションなし"
+msgstr "ニュースのオプション"
 
 #. i18n: ectx: property (text), widget (QLabel, versionNotificationLabel)
 #. +> trunk5 stable5
@@ -25113,8 +25112,7 @@ msgstr "最近開いたドキュメント"
 #. i18n: ectx: property (text), widget (QPushButton, clearRecentFilesLink)
 #. +> trunk5 stable5
 #: libs/ui/forms/KisWelcomePage.ui:1623
-#, fuzzy, kde-format
-#| msgid "Clear"
+#, kde-format
 msgctxt "Welcome Screen Recent Document List's Clear link Label"
 msgid "Clear"
 msgstr "クリア"
@@ -25122,12 +25120,13 @@ msgstr "クリア"
 #. i18n: ectx: property (text), widget (QLabel, labelNoRecentDocs)
 #. +> trunk5 stable5
 #: libs/ui/forms/KisWelcomePage.ui:1676
-#, fuzzy, kde-format
-#| msgid "Could not create the output document"
+#, kde-format
 msgid ""
 "You don't seem to have any\n"
 "recently opened documents"
-msgstr "出力ドキュメントを新規作成することができませんでした"
+msgstr ""
+"最近開いたドキュメントが\n"
+"ないようです"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSupportText)
 #. +> trunk5 stable5
@@ -25148,6 +25147,19 @@ msgid ""
 "sponsors, and <a href=\"https://fund.krita.org/\">development fund </"
 "a>members.</p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Krita は、すべてのデジタル"
+"アーティストのための、コミュニティ主導開発のオープンソースソフトウェアです。"
+"<br />Krita コミュニティの<a href=\"https://docs.krita.org/en/"
+"contributors_manual.html\">貢献者</a>、スポンサー、ならびに<a href=\"https://"
+"fund.krita.org/\">開発基金</a>のメンバーからの絶え間ない支援によって改良が続"
+"けられています。</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
 #. +> trunk5 stable5
@@ -26054,7 +26066,7 @@ msgstr "不透明度:"
 #: libs/ui/forms/wdgdisplaysettings.ui:423
 #, kde-format
 msgid "Pixel Grid:"
-msgstr "ピクセル グリッド:"
+msgstr "ピクセルグリッド:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. +> trunk5 stable5
