@@ -17,3 +17,7 @@ https://po2mo.net/
 オリジナルの .po ファイルは以下の URL から取得しています。
 
 https://websvn.kde.org/trunk/l10n-support/ja/summit/messages/krita/
+
+.po ファイルの編集には Poedit を使用しています。
+
+https://poedit.net/
