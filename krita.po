@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-17 10:11+0200\n"
-"PO-Revision-Date: 2021-08-21 21:06+0900\n"
+"PO-Revision-Date: 2021-08-22 13:35+0900\n"
 "Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -24984,7 +24984,7 @@ msgstr "コミュニティ"
 #: libs/ui/forms/KisWelcomePage.ui:203 libs/ui/KisWelcomePageWidget.cpp:371
 #, kde-format
 msgid "User Manual"
-msgstr "ユーザ マニュアル"
+msgstr "ユーザーマニュアル"
 
 # normal distance + absolute value
 #. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
@@ -26345,7 +26345,8 @@ msgstr "スクロールバー"
 #: libs/ui/forms/wdgfullscreensettings.ui:59
 #, kde-format
 msgid "Titlebar (hiding the titlebar will make Krita go full-screen)"
-msgstr "タイトルバー (タイトルバーを隠すと Krita はフルスクリーンになります)"
+msgstr ""
+"タイトルバー (タイトルバーを非表示にすると Krita はフルスクリーンになります)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkStatusbar)
 #. +> trunk5 stable5
@@ -26367,7 +26368,7 @@ msgstr "色域マスク"
 #: libs/ui/widgets/KisGamutMaskToolbar.cpp:23
 #, kde-format
 msgid "Select a mask in \"Gamut Masks\" docker"
-msgstr "\"色域マスク\"ドッキングパネルでマスクを選択"
+msgstr "「色域マスク」ドッキングパネルでマスクを選択"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. +> trunk5 stable5
@@ -26614,8 +26615,8 @@ msgstr "感度:"
 #, kde-format
 msgid "Hide docker scrollbars if kinetic scrolling is enabled (needs restart)"
 msgstr ""
-"慣性スクロールを有効にしたら、ドッキングパネルのスクロールバーを隠す (再起動"
-"が必要)"
+"慣性スクロールの有効時にドッキングパネルのスクロールバーを非表示にする (再起"
+"動が必要)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. +> trunk5 stable5
@@ -37048,7 +37049,7 @@ msgstr "助ける..."
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Float Docker"
-msgstr "ドッキングパネルのフロート化"
+msgstr "ドッキングパネルをフロート化"
 
 #. +> trunk5 stable5
 #: libs/widgets/KoDockWidgetTitleBar.cpp:47
@@ -37059,12 +37060,10 @@ msgstr "ドッキングパネルを閉じる"
 
 #. +> trunk5 stable5
 #: libs/widgets/KoDockWidgetTitleBar.cpp:57
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format) @info:tooltip"
-#| msgid "Lock Docker"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Lock Docker"
-msgstr "ドッキングパネルのロック"
+msgstr "ドッキングパネルをロック"
 
 #. +> trunk5 stable5
 #: libs/widgets/KoEditColorSetDialog.cpp:159
@@ -40408,14 +40407,13 @@ msgstr "アニメーションタイムライン"
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:164
 #, kde-format
 msgid "AutoKey Blank"
-msgstr ""
+msgstr "キーフレーム自動追加 (白紙)"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:166
-#, fuzzy, kde-format
-#| msgid "Duplicate"
+#, kde-format
 msgid "AutoKey Duplicate"
-msgstr "複製"
+msgstr "キーフレーム自動追加 (複製)"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimTimelineDocker.cpp:438
@@ -40618,10 +40616,6 @@ msgstr "変形キーフレームを削除"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimUtils.cpp:38
-#, fuzzy
-#| msgctxt "(qtundo-format)"
-#| msgid "Copy Keyframe"
-#| msgid_plural "Copy %1 Keyframes"
 msgctxt "(qtundo-format)"
 msgid "Copy Keyframe"
 msgstr "キーフレームをコピー"
@@ -40651,10 +40645,7 @@ msgstr[1] "%1キーフレームを移動"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimUtils.cpp:304
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Copy Keyframe"
-#| msgid_plural "Copy %1 Keyframes"
+#, kde-format
 msgctxt "(qtundo-format) Copy one or several keyframes"
 msgid "Copy Keyframe"
 msgid_plural "Copy %1 Keyframes"
@@ -40663,24 +40654,18 @@ msgstr[1] "%1キーフレームをコピー"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimUtils.cpp:377
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Move Keyframe"
-#| msgid_plural "Move %1 Keyframes"
+#, kde-format
 msgctxt "(qtundo-format)"
 msgid "Clone Keyframe"
 msgid_plural "Clone %1 Keyframes"
-msgstr[0] "キーフレームを移動"
+msgstr[0] "キーフレームのクローンを作成"
 msgstr[1] "%1キーフレームを移動"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimUtils.cpp:408
-#, fuzzy
-#| msgctxt "action"
-#| msgid "Make line point"
 msgctxt "(qtundo-format)"
 msgid "Make clones Unique"
-msgstr "直線アンカーポイントを作成"
+msgstr "キーフレームのクローンを独立させる"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:45
@@ -40710,9 +40695,9 @@ msgstr "前後フレーム表示のオプション"
 #. i18n: ectx: property (title), widget (QGroupBox, colorFilterGroupbox)
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisOnionSkinsDocker.ui:54
-#, fuzzy, kde-format
+#, kde-format
 msgid "Filter Onion Skins by Frame Color"
-msgstr "フレームの色でフィルタリング"
+msgstr "フレームカラーで絞り込み"
 
 #. i18n: ectx: property (text), widget (QToolButton, btnShowHide)
 #. i18n: ectx: property (text), widget (QToolButton, btnAddField)
@@ -41432,7 +41417,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "Shows global selection as a usual selection mask in <b>Layers</b> docker"
 msgstr ""
-"「レイヤー」ドッキングパネルで通常の選択マスクとしてグローバル選択を表示"
+"「レイヤー」ドッキングパネルでグローバル選択を通常の選択マスクとして表示"
 
 #. +> trunk5 stable5
 #: plugins/dockers/layerdocker/LayerBox.cpp:302
@@ -42785,7 +42770,7 @@ msgstr "選択されたスナップショットを削除"
 #: plugins/dockers/snapshotdocker/SnapshotDocker.cpp:82
 #, kde-format
 msgid "Snapshot Docker"
-msgstr "スナップショットドッキングパネル"
+msgstr "スナップショット"
 
 #. +> trunk5 stable5
 #: plugins/dockers/specificcolorselector/specificcolorselector_dock.cc:22
@@ -44188,8 +44173,7 @@ msgstr "絞り:"
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #. +> trunk5 stable5
 #: plugins/extensions/metadataeditor/editors/exif.ui:233
-#, fuzzy, kde-format
-#| msgid "Shutter speed:"
+#, kde-format
 msgctxt "EXIF: exposure"
 msgid "Shutter speed:"
 msgstr "シャッタースピード:"
@@ -56406,8 +56390,7 @@ msgstr "スピード1ガンマ"
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:50
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:52
 #: plugins/paintops/mypaint/MyPaintPaintOpSettingsWidget.cpp:53
-#, fuzzy, kde-format
-#| msgid "Speed"
+#, kde-format
 msgctxt "Option Category"
 msgid "Speed"
 msgstr "速度"
@@ -59307,7 +59290,7 @@ msgstr "スライダーの行数:"
 #. +> trunk5 stable5
 #: plugins/python/palette_docker/palette_docker.py:37
 msgid "Python Palette Docker"
-msgstr "Python パレットドッキングパネル"
+msgstr "Python パレット"
 
 #. +> trunk5 stable5
 #: plugins/python/palette_docker/palette_docker.py:63
@@ -59442,10 +59425,8 @@ msgstr "今すぐプラグインを有効化しますか？ (再起動が必要)
 
 #. +> trunk5 stable5
 #: plugins/python/plugin_importer/plugin_importer_extension.py:68
-#, fuzzy
-#| msgid "Active Bundles"
 msgid "Activate Plugins?"
-msgstr "アクティブなバンドル"
+msgstr "プラグインを有効化しますか？"
 
 #. +> trunk5 stable5
 #: plugins/python/plugin_importer/plugin_importer_extension.py:75
@@ -59479,7 +59460,7 @@ msgstr "Zip アーカイブ"
 #. +> trunk5 stable5
 #: plugins/python/quick_settings_docker/quick_settings_docker.py:29
 msgid "Quick Settings Docker"
-msgstr "クイック設定ドッキングパネル"
+msgstr "クイック設定"
 
 #. +> trunk5 stable5
 #: plugins/python/scriptdocker/scriptdocker.py:16
@@ -59489,7 +59470,7 @@ msgstr "スクリプトを追加"
 #. +> trunk5 stable5
 #: plugins/python/scriptdocker/scriptdocker.py:24
 msgid "Script Docker"
-msgstr "スクリプトドッキングパネル"
+msgstr "スクリプト"
 
 #. +> trunk5 stable5
 #: plugins/python/scriptdocker/scriptdocker.py:41
@@ -59667,7 +59648,7 @@ msgstr "保存"
 #, kde-format
 msgctxt "action"
 msgid "Ten Brushes"
-msgstr "10個のブラシ割り当て"
+msgstr "10 個のブラシ割り当て"
 
 #. i18n: context: Action (activate_preset_1), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59675,7 +59656,7 @@ msgstr "10個のブラシ割り当て"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 1"
-msgstr "ブラシプリセット1を有効化"
+msgstr "ブラシプリセット 1 を有効化"
 
 #. i18n: context: Action (activate_preset_2), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59683,7 +59664,7 @@ msgstr "ブラシプリセット1を有効化"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 2"
-msgstr "ブラシプリセット2を有効化"
+msgstr "ブラシプリセット 2 を有効化"
 
 #. i18n: context: Action (activate_preset_3), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59691,7 +59672,7 @@ msgstr "ブラシプリセット2を有効化"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 3"
-msgstr "ブラシプリセット3を有効化"
+msgstr "ブラシプリセット 3 を有効化"
 
 #. i18n: context: Action (activate_preset_4), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59699,7 +59680,7 @@ msgstr "ブラシプリセット3を有効化"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 4"
-msgstr "ブラシプリセット4を有効化"
+msgstr "ブラシプリセット 4 を有効化"
 
 #. i18n: context: Action (activate_preset_5), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59707,7 +59688,7 @@ msgstr "ブラシプリセット4を有効化"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 5"
-msgstr "ブラシプリセット5を有効化"
+msgstr "ブラシプリセット 5 を有効化"
 
 #. i18n: context: Action (activate_preset_6), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59715,7 +59696,7 @@ msgstr "ブラシプリセット5を有効化"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 6"
-msgstr "ブラシプリセット6を有効化"
+msgstr "ブラシプリセット 6 を有効化"
 
 #. i18n: context: Action (activate_preset_7), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59723,7 +59704,7 @@ msgstr "ブラシプリセット6を有効化"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 7"
-msgstr "ブラシプリセット7を有効化"
+msgstr "ブラシプリセット 7 を有効化"
 
 #. i18n: context: Action (activate_preset_8), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59731,7 +59712,7 @@ msgstr "ブラシプリセット7を有効化"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 8"
-msgstr "ブラシプリセット8を有効化"
+msgstr "ブラシプリセット 8 を有効化"
 
 #. i18n: context: Action (activate_preset_9), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59739,7 +59720,7 @@ msgstr "ブラシプリセット8を有効化"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 9"
-msgstr "ブラシプリセット9を有効化"
+msgstr "ブラシプリセット 9 を有効化"
 
 #. i18n: context: Action (activate_preset_0), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59747,23 +59728,24 @@ msgstr "ブラシプリセット9を有効化"
 #, kde-format
 msgctxt "action"
 msgid "Activate Brush Preset 10"
-msgstr "ブラシプリセット10を有効化"
+msgstr "ブラシプリセット 10 を有効化"
 
 #. +> trunk5 stable5
 #: plugins/python/tenbrushes/tenbrushes.py:28
 msgid "Ten Brushes"
-msgstr "10個のブラシ割り当て"
+msgstr "10 個のブラシ割り当て"
 
 #. +> trunk5 stable5
 #: plugins/python/tenbrushes/tenbrushes.py:29
 msgid "Assign ten brush presets to ten shortcuts."
-msgstr "10個のブラシプリセットを10個のショートカットにそれぞれ割り当てます。"
+msgstr ""
+"10 個のブラシプリセットを 10 個のショートカットにそれぞれ割り当てます。"
 
 #. +> trunk5 stable5
 #: plugins/python/tenbrushes/tenbrushes.py:68
 #, python-brace-format
 msgid "Activate Brush Preset {num}"
-msgstr "ブラシプリセット {num} が有効になりました"
+msgstr "ブラシプリセット {num} を有効化"
 
 #. +> trunk5 stable5
 #: plugins/python/tenbrushes/tenbrushes.py:97
@@ -59813,7 +59795,7 @@ msgstr ""
 #, kde-format
 msgctxt "action"
 msgid "Ten Scripts"
-msgstr "10個のスクリプト割り当て"
+msgstr "10 個のスクリプト割り当て"
 
 #. i18n: context: Action (execute_script_1), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59821,7 +59803,7 @@ msgstr "10個のスクリプト割り当て"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 1"
-msgstr "スクリプト1を実行"
+msgstr "スクリプト 1 を実行"
 
 #. i18n: context: Action (execute_script_2), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59829,7 +59811,7 @@ msgstr "スクリプト1を実行"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 2"
-msgstr "スクリプト2を実行"
+msgstr "スクリプト 2 を実行"
 
 #. i18n: context: Action (execute_script_3), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59837,7 +59819,7 @@ msgstr "スクリプト2を実行"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 3"
-msgstr "スクリプト3を実行"
+msgstr "スクリプト 3 を実行"
 
 #. i18n: context: Action (execute_script_4), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59845,7 +59827,7 @@ msgstr "スクリプト3を実行"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 4"
-msgstr "スクリプト4を実行"
+msgstr "スクリプト 4 を実行"
 
 #. i18n: context: Action (execute_script_5), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59853,7 +59835,7 @@ msgstr "スクリプト4を実行"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 5"
-msgstr "スクリプト5を実行"
+msgstr "スクリプト 5 を実行"
 
 #. i18n: context: Action (execute_script_6), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59861,7 +59843,7 @@ msgstr "スクリプト5を実行"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 6"
-msgstr "スクリプト6を実行"
+msgstr "スクリプト 6 を実行"
 
 #. i18n: context: Action (execute_script_7), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59869,7 +59851,7 @@ msgstr "スクリプト6を実行"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 7"
-msgstr "スクリプト7を実行"
+msgstr "スクリプト 7 を実行"
 
 #. i18n: context: Action (execute_script_8), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59877,7 +59859,7 @@ msgstr "スクリプト7を実行"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 8"
-msgstr "スクリプト8を実行"
+msgstr "スクリプト 8 を実行"
 
 #. i18n: context: Action (execute_script_9), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59885,7 +59867,7 @@ msgstr "スクリプト8を実行"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 9"
-msgstr "スクリプト9を実行"
+msgstr "スクリプト 9 を実行"
 
 #. i18n: context: Action (execute_script_10), Actions (Scripts), ActionCollection (Scripts)
 #. +> trunk5 stable5
@@ -59893,17 +59875,17 @@ msgstr "スクリプト9を実行"
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 10"
-msgstr "スクリプト10を実行"
+msgstr "スクリプト 10 を実行"
 
 #. +> trunk5 stable5
 #: plugins/python/tenscripts/tenscripts.py:26
 msgid "Ten Scripts"
-msgstr "10個のスクリプト割り当て"
+msgstr "10 個のスクリプト割り当て"
 
 #. +> trunk5 stable5
 #: plugins/python/tenscripts/tenscripts.py:27
 msgid "Assign ten scripts to ten shortcuts."
-msgstr "10個のスクリプトを10個のショートカットにそれぞれ割り当てます。"
+msgstr "10 個のスクリプトを 10 個のショートカットにそれぞれ割り当てます。"
 
 #. +> trunk5 stable5
 #: plugins/python/tenscripts/tenscripts.py:53
@@ -59946,8 +59928,7 @@ msgstr "サンプル数:"
 
 #. +> trunk5 stable5
 #: plugins/tools/basictools/kis_tool_brush.cc:191
-#, fuzzy, kde-format
-#| msgid "Distance:"
+#, kde-format
 msgctxt ""
 "Label of Distance value in Freehand brush tool's Weighted Smoothing mode"
 msgid "Distance:"
@@ -60021,7 +60002,7 @@ msgstr "各センサーからの数値を安定化:"
 #: plugins/tools/basictools/kis_tool_brush.cc:414
 #, kde-format
 msgid "Stroke Ending:"
-msgstr "はらいの長さ:"
+msgstr "抜きの長さ:"
 
 #. +> trunk5 stable5
 #: plugins/tools/basictools/kis_tool_brush.cc:421
