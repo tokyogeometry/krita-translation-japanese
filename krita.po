@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-08-17 10:11+0200\n"
-"PO-Revision-Date: 2021-08-22 13:35+0900\n"
+"PO-Revision-Date: 2021-08-22 16:10+0900\n"
 "Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -11915,7 +11915,7 @@ msgstr "カラムを複数挿入"
 #, kde-format
 msgctxt "action"
 msgid "Insert several columns based on user parameters."
-msgstr "ユーザのパラメータに基づいて複数のカラムを挿入します。"
+msgstr "入力パラメーターに基づいて複数のカラムを挿入します。"
 
 #. i18n: context: Action (remove_columns_and_pull), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -11955,7 +11955,7 @@ msgstr "カラムの削除のみを行います"
 #, kde-format
 msgctxt "action"
 msgid "Insert Hold Frame"
-msgstr "保持フレームを挿入"
+msgstr "静止フレームを挿入"
 
 #. i18n: context: Action (insert_hold_frame), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -11963,7 +11963,7 @@ msgstr "保持フレームを挿入"
 #, kde-format
 msgctxt "action"
 msgid "Insert a hold frame after every keyframe"
-msgstr "すべてのキーフレームの後に保持フレームを挿入"
+msgstr "各キーフレームの後に静止フレームを挿入"
 
 #. i18n: context: Action (insert_multiple_hold_frames), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -11971,7 +11971,7 @@ msgstr "すべてのキーフレームの後に保持フレームを挿入"
 #, kde-format
 msgctxt "action"
 msgid "Insert Multiple Hold Frames"
-msgstr "保持フレームを複数挿入"
+msgstr "静止フレームを複数挿入"
 
 #. i18n: context: Action (insert_multiple_hold_frames), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -11979,7 +11979,7 @@ msgstr "保持フレームを複数挿入"
 #, kde-format
 msgctxt "action"
 msgid "Insert N hold frames after every keyframe"
-msgstr "すべてのキーフレームの後に N 個の保持フレームを挿入"
+msgstr "各キーフレームの後に任意の数の静止フレームを挿入"
 
 #. i18n: context: Action (remove_hold_frame), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -11987,7 +11987,7 @@ msgstr "すべてのキーフレームの後に N 個の保持フレームを挿
 #, kde-format
 msgctxt "action"
 msgid "Remove Hold Frame"
-msgstr "保持フレームを削除"
+msgstr "静止フレームを削除"
 
 #. i18n: context: Action (remove_hold_frame), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -11995,7 +11995,7 @@ msgstr "保持フレームを削除"
 #, kde-format
 msgctxt "action"
 msgid "Remove a hold frame after every keyframe"
-msgstr "すべてのキーフレームの後ろから保持フレームを削除"
+msgstr "各キーフレームの後ろの静止フレームを削除"
 
 #. i18n: context: Action (remove_multiple_hold_frames), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12003,7 +12003,7 @@ msgstr "すべてのキーフレームの後ろから保持フレームを削除
 #, kde-format
 msgctxt "action"
 msgid "Remove Multiple Hold Frames"
-msgstr "複数の保持フレームを削除"
+msgstr "複数の静止フレームを削除"
 
 #. i18n: context: Action (remove_multiple_hold_frames), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12011,7 +12011,7 @@ msgstr "複数の保持フレームを削除"
 #, kde-format
 msgctxt "action"
 msgid "Remove N hold frames after every keyframe"
-msgstr "すべてのキーフレームの後ろから N 個の保持フレームを削除"
+msgstr "各キーフレームの後ろの任意の数の静止フレームを削除"
 
 #. i18n: context: Action (insert_hold_column), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12019,7 +12019,7 @@ msgstr "すべてのキーフレームの後ろから N 個の保持フレーム
 #, kde-format
 msgctxt "action"
 msgid "Insert Hold Column"
-msgstr "保持カラムを挿入"
+msgstr "静止カラムを挿入"
 
 #. i18n: context: Action (insert_hold_column), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12027,7 +12027,7 @@ msgstr "保持カラムを挿入"
 #, kde-format
 msgctxt "action"
 msgid "Insert a hold column into the frame at the current position"
-msgstr "現在のカーソル位置に保持カラムを挿入"
+msgstr "現在のカーソル位置に静止カラムを挿入"
 
 #. i18n: context: Action (insert_multiple_hold_columns), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12035,7 +12035,7 @@ msgstr "現在のカーソル位置に保持カラムを挿入"
 #, kde-format
 msgctxt "action"
 msgid "Insert Multiple Hold Columns"
-msgstr "保持カラムを複数挿入"
+msgstr "静止カラムを複数挿入"
 
 #. i18n: context: Action (insert_multiple_hold_columns), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12043,7 +12043,7 @@ msgstr "保持カラムを複数挿入"
 #, kde-format
 msgctxt "action"
 msgid "Insert N hold columns into the frame at the current position"
-msgstr "現在のカーソル位置に N 個の保持カラムを挿入"
+msgstr "現在のカーソル位置に任意の数の静止カラムを挿入"
 
 #. i18n: context: Action (remove_hold_column), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12051,7 +12051,7 @@ msgstr "現在のカーソル位置に N 個の保持カラムを挿入"
 #, kde-format
 msgctxt "action"
 msgid "Remove Hold Column"
-msgstr "保持カラムを削除"
+msgstr "静止カラムを削除"
 
 #. i18n: context: Action (remove_hold_column), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12059,7 +12059,7 @@ msgstr "保持カラムを削除"
 #, kde-format
 msgctxt "action"
 msgid "Remove a hold column from the frame at the current position"
-msgstr "現在のカーソル位置から保持カラムを削除"
+msgstr "現在のカーソル位置のフレームから静止カラムを削除"
 
 #. i18n: context: Action (remove_multiple_hold_columns), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12067,7 +12067,7 @@ msgstr "現在のカーソル位置から保持カラムを削除"
 #, kde-format
 msgctxt "action"
 msgid "Remove Multiple Hold Columns"
-msgstr "保持カラムを複数削除"
+msgstr "静止カラムを複数削除"
 
 #. i18n: context: Action (remove_multiple_hold_columns), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12075,7 +12075,7 @@ msgstr "保持カラムを複数削除"
 #, kde-format
 msgctxt "action"
 msgid "Remove N hold columns from the frame at the current position"
-msgstr "現在のカーソル位置のフレームから N 個の保持カラムを削除"
+msgstr "現在のカーソル位置のフレームから任意の数の静止カラムを削除"
 
 #. i18n: context: Action (add_scalar_keyframes), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12241,16 +12241,15 @@ msgstr "キーフレームを貼り付け"
 #, kde-format
 msgctxt "action"
 msgid "Paste frames from clipboard"
-msgstr "クリップボードからフレームを貼り付け"
+msgstr "フレームをクリップボードから貼り付け"
 
 #. i18n: context: Action (copy_columns_to_clipboard), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2215
-#, fuzzy, kde-format
-#| msgid "Columns:"
+#, kde-format
 msgctxt "action"
 msgid "Copy Columns"
-msgstr "欄数:"
+msgstr "カラムをコピー"
 
 #. i18n: context: Action (copy_columns_to_clipboard), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12263,11 +12262,10 @@ msgstr "カラムをクリップボードにコピー"
 #. i18n: context: Action (cut_columns_to_clipboard), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2227
-#, fuzzy, kde-format
-#| msgid "Edit Columns:"
+#, kde-format
 msgctxt "action"
 msgid "Cut Columns"
-msgstr "カラムを編集:"
+msgstr "カラムを切り取り"
 
 #. i18n: context: Action (cut_columns_to_clipboard), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12280,10 +12278,10 @@ msgstr "カラムをクリップボードに切り取る"
 #. i18n: context: Action (paste_columns_from_clipboard), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2239
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Paste Columns"
-msgstr "貼り付け"
+msgstr "カラムを貼り付け"
 
 #. i18n: context: Action (paste_columns_from_clipboard), Actions (Animation), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -18108,7 +18106,7 @@ msgstr "アルファをロック"
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:29
 #, kde-format
 msgid "Onion Skins"
-msgstr "前後フレームの表示"
+msgstr "オニオンスキン"
 
 #. +> trunk5 stable5
 #: libs/image/kis_layer_properties_icons.cpp:27
@@ -27275,10 +27273,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, autoAddHoldframesBox)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgimportimagesequence.ui:75
-#, fuzzy, kde-format
-#| msgid "Vertically"
+#, kde-format
 msgid "Add hold frames automatically"
-msgstr "垂直方向"
+msgstr "静止フレームを自動で追加"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, beginFromZeroIndexBox)
 #. +> trunk5 stable5
@@ -40523,7 +40520,7 @@ msgstr "音声を変更 (%1)..."
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert or Remove Hold Frames"
-msgstr "保持フレームの挿入または削除"
+msgstr "静止フレームの挿入または削除"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1577
@@ -40550,7 +40547,7 @@ msgstr "キーフレーム"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frames"
-msgstr "フレームを固定"
+msgstr "静止フレーム"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:488
@@ -40563,14 +40560,14 @@ msgstr "カラムを編集:"
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframe Columns"
-msgstr "キーフレームカラム"
+msgstr "キーフレームのカラム"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimTimelineTimeHeader.cpp:506
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frame Columns"
-msgstr "フレームカラムを固定"
+msgstr "静止フレームのカラム"
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisAnimUtils.cpp:26
@@ -40671,7 +40668,7 @@ msgstr "キーフレームのクローンを独立させる"
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:45
 #, kde-format
 msgid "Tint: "
-msgstr "前後フレームの表示の不透明度: "
+msgstr "着色: "
 
 #. +> trunk5 stable5
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:48
@@ -40690,7 +40687,7 @@ msgstr "後のフレームの表示色"
 #: plugins/dockers/animation/KisOnionSkinsDocker.ui:23
 #, kde-format
 msgid "Onion skin options"
-msgstr "前後フレーム表示のオプション"
+msgstr "オニオンスキンのオプション"
 
 #. i18n: ectx: property (title), widget (QGroupBox, colorFilterGroupbox)
 #. +> trunk5 stable5
