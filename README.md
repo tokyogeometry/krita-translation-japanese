@@ -1,4 +1,4 @@
-# krita-l10n-ja
+# krita-translation-japanese
 
 Krita の非公式な日本語化パッチを制作しています。
 
