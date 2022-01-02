@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-29 11:53+0100\n"
-"PO-Revision-Date: 2021-12-31 22:30+0900\n"
+"PO-Revision-Date: 2022-01-02 22:09+0900\n"
 "Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -7148,19 +7148,17 @@ msgstr ""
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. +> trunk5
-#, fuzzy, kde-format
-#| msgid "Foreground to Background"
+#, kde-format
 msgctxt "memory/gradients/Foreground to Background.svg"
 msgid "0. Foreground to Background"
-msgstr "描画色を背景色に変換"
+msgstr "0. 描画色を背景色に"
 
 #. i18n: Display name of resource, see context: [path-to-resources]/[resource-type]/[resource-filename]
 #. +> trunk5
-#, fuzzy, kde-format
-#| msgid "Foreground to Transparent"
+#, kde-format
 msgctxt "memory/gradients/Foreground to Transparent.svg"
 msgid "1. Foreground to Transparent"
-msgstr "描画色を透明値に変換"
+msgstr "1. 描画色を透明に"
 
 #. i18n: context: Actions (Interaction Tool), ActionCollection (Tools)
 #. +> trunk5 stable5
@@ -10225,22 +10223,18 @@ msgstr "ツールバー右側(ブラシなど)を非表示"
 #. i18n: context: Action (reset_fg_bg), Actions (Painting), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:587
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Reset Foreground and Background Color"
+#, kde-format
 msgctxt "action"
 msgid "Set Foreground and Background Colors to Black and White"
-msgstr "描画色と背景色をリセットする"
+msgstr "描画色を黒に、背景色を白にする"
 
 #. i18n: context: Action (reset_fg_bg), Actions (Painting), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:589
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Reset Foreground and Background Color"
+#, kde-format
 msgctxt "action"
 msgid "Set foreground and background colors to black and white"
-msgstr "描画色と背景色をリセットする"
+msgstr "描画色を黒に、背景色を白にする"
 
 #. i18n: context: Action (toggle_fg_bg), Actions (Painting), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -16404,40 +16398,34 @@ msgstr "色"
 #. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. +> trunk5
 #: krita/kritamenu.action:1865
-#, fuzzy, kde-format
-#| msgid "Foreground Color"
+#, kde-format
 msgctxt "action"
 msgid "&Choose Foreground Color"
-msgstr "描画色"
+msgstr "描画色を選択(&C)"
 
 #. i18n: context: Action (chooseForegroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. +> trunk5
 #: krita/kritamenu.action:1867
-#, fuzzy, kde-format
-#| msgid "Foreground Color"
+#, kde-format
 msgctxt "action"
 msgid "Choose Foreground Color"
-msgstr "描画色"
+msgstr "描画色を選択"
 
 #. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. +> trunk5
 #: krita/kritamenu.action:1875
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Set Background Color"
+#, kde-format
 msgctxt "action"
 msgid "&Choose Background Color"
-msgstr "背景色を設定"
+msgstr "背景色を選択(&C)"
 
 #. i18n: context: Action (chooseBackgroundColor), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. +> trunk5
 #: krita/kritamenu.action:1877
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Set Background Color"
+#, kde-format
 msgctxt "action"
 msgid "Choose Background Color"
-msgstr "背景色を設定"
+msgstr "背景色を選択"
 
 #. i18n: context: Action (paintops), Actions (BrushesAndStuff), ActionCollection (Menu)
 #. +> trunk5 stable5
@@ -25340,6 +25328,9 @@ msgid ""
 "decoration: underline;\">enable news</a> from krita.org in various languages "
 "with the menu above"
 msgstr ""
+"上のメニューから、krita.org からのニュースをさまざまな言語で<a href=\"ignored"
+"\" style=\"color: COLOR_PLACEHOLDER; text-decoration: underline;\">受信</a>で"
+"きます"
 
 #. i18n: ectx: property (text), widget (QLabel, helpTitleLabel)
 #. +> trunk5 stable5
@@ -29915,31 +29906,27 @@ msgstr "三次モード"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_alternate_invocation_action.cpp:35
-#, fuzzy, kde-format
-#| msgid "Pick Foreground Color from Current Layer"
+#, kde-format
 msgid "Sample Foreground Color from Current Layer"
-msgstr "現在のレイヤーから描画色を抽出"
+msgstr "現在のレイヤーから描画色を採取"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_alternate_invocation_action.cpp:36
-#, fuzzy, kde-format
-#| msgid "Pick Background Color from Current Layer"
+#, kde-format
 msgid "Sample Background Color from Current Layer"
-msgstr "現在のレイヤーから背景色を抽出"
+msgstr "現在のレイヤーから背景色を採取"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_alternate_invocation_action.cpp:38
-#, fuzzy, kde-format
-#| msgid "Pick Foreground Color from Merged Image"
+#, kde-format
 msgid "Sample Foreground Color from Merged Image"
-msgstr "統合した画像から描画色を抽出"
+msgstr "統合した画像から描画色を採取"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_alternate_invocation_action.cpp:39
-#, fuzzy, kde-format
-#| msgid "Pick Background Color from Merged Image"
+#, kde-format
 msgid "Sample Background Color from Merged Image"
-msgstr "統合した画像から背景色を抽出"
+msgstr "統合した画像から背景色を採取"
 
 #. +> trunk5 stable5
 #: libs/ui/input/kis_change_frame_action.cpp:26
@@ -30730,10 +30717,9 @@ msgstr "グラデーション(&G)"
 
 #. +> trunk5 stable5
 #: libs/ui/kis_control_frame.cpp:100
-#, fuzzy, kde-format
-#| msgid "Reset Foreground and Background Color"
+#, kde-format
 msgid "&Choose foreground and background colors"
-msgstr "描画色と背景色をリセットする"
+msgstr "描画色と背景色を選択(&C)"
 
 #. +> trunk5 stable5
 #: libs/ui/kis_control_frame.cpp:115
@@ -30743,16 +30729,15 @@ msgstr "画家のツール(&P)"
 
 #. +> trunk5
 #: libs/ui/kis_control_frame.cpp:120
-#, fuzzy, kde-format
+#, kde-format
 msgid "&Open Foreground color selector"
-msgstr "前景色変更"
+msgstr "描画色セレクターを開く(&O)"
 
 #. +> trunk5
 #: libs/ui/kis_control_frame.cpp:125
-#, fuzzy, kde-format
-#| msgid "Background color"
+#, kde-format
 msgid "&Open Background color selector"
-msgstr "背景色"
+msgstr "背景色セレクターを開く(&O)"
 
 #. +> trunk5 stable5
 #: libs/ui/kis_control_frame.cpp:186 libs/ui/KisApplication.cpp:346
@@ -31419,7 +31404,7 @@ msgid ""
 "Click to swap foreground and background colors.\n"
 "Right click to set to black and white."
 msgstr ""
-"クリックすると、前景色と背景色を入れ替えます。\n"
+"クリックすると、描画色と背景色を入れ替えます。\n"
 "右クリックすると、黒と白をセットします。"
 
 #. +> trunk5 stable5
@@ -32202,10 +32187,7 @@ msgstr "ドキュメントを開いています"
 
 #. +> trunk5 stable5
 #: libs/ui/KisDocument.cpp:1818
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open %2.\n"
-#| "Reason: %1."
+#, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1"
@@ -32215,10 +32197,9 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: libs/ui/KisDocument.cpp:1826
-#, fuzzy, kde-format
-#| msgid "There were problems opening %1."
+#, kde-format
 msgid "There were problems opening %1"
-msgstr "%1 を開いている最中に問題が発生しました。"
+msgstr "%1 を開いている最中に問題が発生しました"
 
 #. +> trunk5 stable5
 #: libs/ui/KisDocument.cpp:1955
@@ -32228,11 +32209,10 @@ msgstr "未保存"
 
 #. +> trunk5 stable5
 #: libs/ui/KisDocument.cpp:2425
-#, fuzzy, kde-format
-#| msgid "Background"
+#, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
-msgstr "背景"
+msgstr "背景塗りつぶし"
 
 #. +> trunk5 stable5
 #: libs/ui/KisDocument.cpp:2479
@@ -33342,7 +33322,7 @@ msgstr "匿名"
 #: libs/ui/KisWelcomePageWidget.cpp:140
 #, kde-format
 msgid "Enable news and check for new releases"
-msgstr ""
+msgstr "ニュースと、新バージョンのチェックを有効にする"
 
 #. +> trunk5 stable5
 #: libs/ui/KisWelcomePageWidget.cpp:142
@@ -33365,7 +33345,7 @@ msgstr "言語"
 #: libs/ui/KisWelcomePageWidget.cpp:146
 #, kde-format
 msgid "English news is always up to date."
-msgstr ""
+msgstr "英語のニュースが常に最新です。"
 
 #. +> trunk5 stable5
 #: libs/ui/KisWelcomePageWidget.cpp:415
@@ -33807,7 +33787,7 @@ msgstr "ノックアウト(&N):"
 #: libs/ui/layerstyles/wdgblendingoptions.ui:216
 #, kde-format
 msgid "Set the interior transparency. Shallow = Group, Deep = Background"
-msgstr "内部の透明度を設定します。浅さ＝グループ、深さ＝背景"
+msgstr "内部の透明度を設定します。浅さ = グループ、深さ = 背景"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbKnockout)
 #. +> trunk5 stable5
@@ -34704,12 +34684,10 @@ msgstr "ブラシのサイズを小さくする"
 
 #. +> trunk5 stable5
 #: libs/ui/tool/strokes/kis_filter_stroke_strategy.cpp:139
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Filter \"%1\""
+#, kde-format
 msgctxt "(qtundo-format) Filter as an effect"
 msgid "Filter \"%1\""
-msgstr "フィルタ「%1」"
+msgstr "フィルタ \"%1\""
 
 #. +> trunk5 stable5
 #: libs/ui/utils/KisAppimageUpdater.cpp:171
@@ -34829,6 +34807,8 @@ msgid ""
 "Converting a segment gradient to a stop gradient may cause loss of "
 "information"
 msgstr ""
+"セグメントグラデーションをストップグラデーションに変換すると、情報が失われる"
+"可能性があります"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:133
@@ -34870,11 +34850,10 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:526
-#, fuzzy, kde-format
-#| msgid "Custom Stop Gradient"
+#, kde-format
 msgctxt "Convert the segment gradient to a stop gradient"
 msgid "Convert to Stop Gradient"
-msgstr "ストップ方式グラデーションをカスタム"
+msgstr "ストップグラデーションに変換"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:527
@@ -34896,13 +34875,13 @@ msgstr "階調数"
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:78
 #, kde-format
 msgid "Custom Stop Gradient"
-msgstr "ストップ方式グラデーションをカスタム"
+msgstr "ストップグラデーションをカスタム"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:83
 #, kde-format
 msgid "Custom Segmented Gradient"
-msgstr "セグメント方式グラデーションをカスタム"
+msgstr "セグメントグラデーションをカスタム"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:175
@@ -34961,13 +34940,13 @@ msgstr "追加..."
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:240
 #, kde-format
 msgid "Stop gradient"
-msgstr "ストップ方式グラデーション"
+msgstr "ストップグラデーション"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:242
 #, kde-format
 msgid "Segmented gradient"
-msgstr "セグメント方式グラデーション"
+msgstr "セグメントグラデーション"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGradientChooser.cpp:249
@@ -34984,24 +34963,21 @@ msgstr "名前なし"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:39
-#, fuzzy, kde-format
-#| msgid "Foreground color"
+#, kde-format
 msgctxt "Button to change the gradient stop type to foreground"
 msgid "Foreground color"
 msgstr "描画色"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:54
-#, fuzzy, kde-format
-#| msgid "Background color"
+#, kde-format
 msgctxt "Button to change the gradient stop type to background"
 msgid "Background color"
 msgstr "背景色"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisGradientColorEditor.cpp:69
-#, fuzzy, kde-format
-#| msgid "Custom color"
+#, kde-format
 msgctxt "Button to change the gradient stop type to custom color"
 msgid "Custom color"
 msgstr "カスタム色"
@@ -35076,54 +35052,46 @@ msgstr "形状編集"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:52
-#, fuzzy, kde-format
-#| msgid "Duplicate Segment"
+#, kde-format
 msgctxt "Action to delete the selected segment in the segment gradient editor"
 msgid "Delete segment"
-msgstr "グラデーションセグメントを複製"
+msgstr "セグメントを削除"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:57
-#, fuzzy, kde-format
-#| msgid "Split Segment"
+#, kde-format
 msgctxt "Action to flip the selected segment in the segment gradient editor"
 msgid "Flip segment"
-msgstr "グラデーションセグメントを分割"
+msgstr "セグメントを反転"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:62
-#, fuzzy, kde-format
-#| msgid "Split Segment"
+#, kde-format
 msgctxt "Action to split the selected segment in the segment gradient editor"
 msgid "Split segment"
-msgstr "グラデーションセグメントを分割"
+msgstr "セグメントを分割"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:67
-#, fuzzy, kde-format
-#| msgid "Duplicate Segment"
+#, kde-format
 msgctxt ""
 "Action to duplicate the selected segment in the segment gradient editor"
 msgid "Duplicate segment"
-msgstr "グラデーションセグメントを複製"
+msgstr "セグメントを複製"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:72
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Delete shape"
-#| msgid_plural "Delete shapes"
+#, kde-format
 msgctxt "Action to delete the selected stop in the segment gradient editor"
 msgid "Delete stop"
-msgstr "シェイプを削除"
+msgstr "ストップを削除"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:77
-#, fuzzy, kde-format
-#| msgid "Center"
+#, kde-format
 msgctxt "Action to center the selected stop in the segment gradient editor"
 msgid "Center stop"
-msgstr "中心"
+msgstr "ストップを中心に"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:82
@@ -35137,21 +35105,18 @@ msgstr "角アンカーポイント"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:87
-#, fuzzy, kde-format
-#| msgid "Flip Gradient"
+#, kde-format
 msgctxt "Button to flip the gradient in the segment gradient editor"
 msgid "Flip gradient"
-msgstr "グラデーションの反転"
+msgstr "グラデーションを反転"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:92
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Distribute Centers Vertically"
+#, kde-format
 msgctxt ""
 "Button to evenly distribute the segments in the segment gradient editor"
 msgid "Distribute segments evenly"
-msgstr "縦中央に配置"
+msgstr "セグメントを均等に配置"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:156
@@ -35165,20 +35130,18 @@ msgstr "塗りつぶしの色"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:221
-#, fuzzy, kde-format
-#| msgid "Segment Color"
+#, kde-format
 msgctxt ""
 "Text that indicates the selected segment in the segment gradient editor"
 msgid "Segment #%1"
-msgstr "グラデーションセグメントの色"
+msgstr "セグメント #%1"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:252
-#, fuzzy, kde-format
-#| msgid "Stop: "
+#, kde-format
 msgctxt "Text that indicates the selected stop in the segment gradient editor"
 msgid "Stop #%1"
-msgstr "停止: "
+msgstr "ストップ #%1"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisSegmentGradientEditor.cpp:296
@@ -35214,95 +35177,80 @@ msgstr "色を選択"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:35
-#, fuzzy, kde-format
-#| msgid "Move into previous group"
+#, kde-format
 msgctxt "Button to select previous stop in the stop gradient editor"
 msgid "Select previous stop"
-msgstr "前のグループに移動"
+msgstr "前のストップを選択"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:39
-#, fuzzy, kde-format
-#| msgid "Select Font"
+#, kde-format
 msgctxt "Button to select next stop in the stop gradient editor"
 msgid "Select next stop"
-msgstr "フォントを選択"
+msgstr "次のストップを選択"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:43
-#, fuzzy, kde-format
-#| msgid "Edit presets"
+#, kde-format
 msgctxt "Button to edit the selected stop color in the stop gradient editor"
 msgid "Edit stop"
-msgstr "プリセットを編集"
+msgstr "ストップを編集"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:47
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Delete shape"
-#| msgid_plural "Delete shapes"
+#, kde-format
 msgctxt "Button to delete the selected stop in the stop gradient editor"
 msgid "Delete stop"
-msgstr "シェイプを削除"
+msgstr "ストップを削除"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:51
-#, fuzzy, kde-format
-#| msgid "Flip Gradient"
+#, kde-format
 msgctxt "Button to flip the stops in the stop gradient editor"
 msgid "Flip gradient"
-msgstr "グラデーションの反転"
+msgstr "グラデーションを反転"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:55
-#, fuzzy, kde-format
-#| msgid "Sort by Value"
+#, kde-format
 msgctxt "Button to sort the stops by value in the stop gradient editor"
 msgid "Sort stops by value"
-msgstr "値で並べ替え"
+msgstr "ストップを値で並べ替え"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:59
-#, fuzzy, kde-format
-#| msgid "Sort by Value"
+#, kde-format
 msgctxt "Button to sort the stops by hue in the stop gradient editor"
 msgid "Sort stops by hue"
-msgstr "値で並べ替え"
+msgstr "ストップを色相で並べ替え"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:63
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Distribute Top"
+#, kde-format
 msgctxt "Button to evenly distribute the stops in the stop gradient editor"
 msgid "Distribute stops evenly"
-msgstr "上に配置"
+msgstr "ストップを均等に配置"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:191
-#, fuzzy, kde-format
-#| msgid "Stop: "
+#, kde-format
 msgctxt "Text that indicates the selected stop in the stop gradient editor"
 msgid "Stop #%1"
-msgstr "停止: "
+msgstr "ストップ #%1"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:228
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "No action is selected."
+#, kde-format
 msgctxt "Text that indicates no stop is selected in the stop gradient editor"
 msgid "No stop selected"
-msgstr "操作が選択されていません。"
+msgstr "ストップが選択されていません"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/gradient/KisStopGradientEditor.cpp:449
-#, fuzzy, kde-format
-#| msgid "Edit Shape"
+#, kde-format
 msgctxt "Title for the gradient stop editor"
 msgid "Edit Stop"
-msgstr "形状編集"
+msgstr "ストップを編集"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:100
@@ -36509,7 +36457,7 @@ msgstr "戻る"
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stopaction.py:21
 #, kde-format
 msgid "Stop"
-msgstr "ストップ"
+msgstr "停止"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/kis_transport_controls.cpp:55
@@ -36842,31 +36790,27 @@ msgstr ""
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/KoDualColorButton.cpp:426
-#, fuzzy, kde-format
+#, kde-format
 msgid "Foreground color selector"
-msgstr "前景色変更"
+msgstr "描画色セレクター"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/KoDualColorButton.cpp:429
-#, fuzzy, kde-format
-#| msgid "Reset Foreground and Background Color"
+#, kde-format
 msgid "Set foreground and background colors to black and white"
-msgstr "描画色と背景色をリセットする"
+msgstr "描画色を黒に、背景色を白にする"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/KoDualColorButton.cpp:434
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Swap Foreground and Background Color"
+#, kde-format
 msgid "Swap foreground and background colors"
-msgstr "描画色と背景色を交換する"
+msgstr "描画色と背景色を交換"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/KoDualColorButton.cpp:437
-#, fuzzy, kde-format
-#| msgid "Background color"
+#, kde-format
 msgid "Background color selector"
-msgstr "背景色"
+msgstr "背景色セレクター"
 
 #. +> trunk5 stable5
 #: libs/ui/widgets/KoFillConfigWidget.cpp:272
@@ -36986,11 +36930,10 @@ msgstr "繰り返し(交互)"
 #. i18n: ectx: property (text), widget (QLabel, stopColorLabel)
 #. +> trunk5 stable5
 #: libs/ui/widgets/KoFillConfigWidget.ui:358
-#, fuzzy, kde-format
-#| msgid "Stop: "
+#, kde-format
 msgctxt "Gradient stop color selector label"
 msgid "Stop:"
-msgstr "停止: "
+msgstr "ストップ:"
 
 #. i18n: ectx: property (text), widget (KisColorButton, meshStopColorButton)
 #. i18n: ectx: property (text), widget (KisInputLevelsSlider, cutoffSlider)
@@ -37590,17 +37533,15 @@ msgstr "色を追加/削除"
 
 #. +> trunk5 stable5
 #: libs/widgets/KoResourceServerProvider.cpp:46
-#, fuzzy, kde-format
-#| msgid "Foreground to Transparent"
+#, kde-format
 msgid "1. Foreground to Transparent"
-msgstr "描画色を透明値に変換"
+msgstr "1. 描画色を透明に"
 
 #. +> trunk5 stable5
 #: libs/widgets/KoResourceServerProvider.cpp:59
-#, fuzzy, kde-format
-#| msgid "Foreground to Background"
+#, kde-format
 msgid "0. Foreground to Background"
-msgstr "描画色を背景色に変換"
+msgstr "0. 描画色を背景色に"
 
 #. +> trunk5 stable5
 #: libs/widgets/KoRuler.cpp:1329
@@ -40284,7 +40225,7 @@ msgstr "ガンマ:"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:369
 #, kde-format
 msgid "Use custom color for selector background."
-msgstr "色セレクターの背景にカスタム色を使用"
+msgstr "色セレクターの背景にカスタム色を使用します。"
 
 #. i18n: ectx: property (title), widget (QGroupBox, useDifferentColorSpaceCheckbox)
 #. +> trunk5 stable5
@@ -54351,13 +54292,7 @@ msgstr "オーバーレイオプション"
 
 #. +> trunk5 stable5
 #: plugins/paintops/colorsmudge/kis_overlay_mode_option.h:52
-#, fuzzy, kde-format
-#| msgid ""
-#| "Paints on the current layer\n"
-#| "            but uses all layers that are currently visible for smudge "
-#| "input\n"
-#| "            NOTE: This mode is only able to work correctly with a fully "
-#| "opaque background"
+#, kde-format
 msgid ""
 "Paints on the current layer\n"
 "but uses all layers that are currently visible for smudge input\n"
@@ -54367,7 +54302,7 @@ msgstr ""
 "が、\n"
 "これを有効にした場合現在表示されている全レイヤーをサンプルとして使用しま"
 "す。\n"
-"           注: このモードは完全不透明の背景でのみ正常に働きます"
+"注: このモードは完全不透明の背景でのみ正常に働きます"
 
 #. +> trunk5 stable5
 #: plugins/paintops/colorsmudge/kis_overlay_mode_option.h:61
@@ -61135,8 +61070,7 @@ msgstr "塗りつぶし"
 
 #. +> trunk5
 #: plugins/tools/basictools/kis_tool_fill.cc:223
-#, fuzzy, kde-format
-#| msgid "Fast mode: "
+#, kde-format
 msgid "Fast mode:"
 msgstr "高速モード: "
 
@@ -61158,8 +61092,7 @@ msgstr ""
 
 #. +> trunk5
 #: plugins/tools/basictools/kis_tool_fill.cc:231
-#, fuzzy, kde-format
-#| msgid "Threshold:"
+#, kde-format
 msgctxt "The Threshold label in Fill tool options"
 msgid "Threshold:"
 msgstr "しきい値:"
@@ -61194,8 +61127,7 @@ msgstr "塗りつぶす範囲を広げる: "
 
 #. +> trunk5
 #: plugins/tools/basictools/kis_tool_fill.cc:251
-#, fuzzy, kde-format
-#| msgid "Feathering radius: "
+#, kde-format
 msgid "Feathering radius:"
 msgstr "境界のぼかしの幅: "
 
@@ -61212,7 +61144,8 @@ msgid ""
 "When checked do not use the foreground color, but the pattern selected to "
 "fill with"
 msgstr ""
-"チェックすると、描画色は使用されず、塗り潰しに選択したパターンが使用されます"
+"チェックすると、描画色は使用されず、塗りつぶしに選択したパターンが使用されま"
+"す"
 
 #. +> trunk5 stable5
 #: plugins/tools/basictools/kis_tool_fill.cc:278
