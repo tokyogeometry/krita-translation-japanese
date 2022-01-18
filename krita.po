@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-12-29 11:53+0100\n"
-"PO-Revision-Date: 2022-01-03 12:36+0900\n"
+"PO-Revision-Date: 2022-01-18 23:43+0900\n"
 "Last-Translator: Fumiaki Okushi <fumiaki.okushi@gmail.com>\n"
 "Language-Team: Japanese <kde-jp@kde.org>\n"
 "Language: ja\n"
@@ -12442,100 +12442,87 @@ msgstr "新しいグループレイヤーを追加"
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2349
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Clone Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add &Clone Layer"
-msgstr "クローンレイヤー(&C)"
+msgstr "クローンレイヤーを追加(&C)"
 
 #. i18n: context: Action (add_new_clone_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2351
-#, fuzzy, kde-format
-#| msgid "Change Clone Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Clone Layer"
-msgstr "クローンレイヤーを変更"
+msgstr "新しいクローンレイヤーを追加"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2361
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Vector Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add &Vector Layer"
-msgstr "ベクターレイヤー(&V)"
+msgstr "ベクターレイヤーを追加(&V)"
 
 #. i18n: context: Action (add_new_shape_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2363
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Vector Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Vector Layer"
-msgstr "ベクターレイヤー"
+msgstr "新しいベクターレイヤーを追加"
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2373
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Filter Layer..."
+#, kde-format
 msgctxt "action"
 msgid "Add &Filter Layer..."
-msgstr "フィルタレイヤー(&F)..."
+msgstr "フィルターレイヤーを追加(&F)..."
 
 #. i18n: context: Action (add_new_adjustment_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2375
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add a new Filter Layer"
-msgstr "新しいフィルタレイヤー"
+msgstr "新しいフィルターレイヤーを追加"
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2385
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Fill Layer..."
+#, kde-format
 msgctxt "action"
 msgid "Add &Fill Layer..."
-msgstr "塗りつぶしレイヤー(&F)..."
+msgstr "塗りつぶしレイヤーを追加(&F)..."
 
 #. i18n: context: Action (add_new_fill_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2387
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add a new Fill Layer"
-msgstr "新しいフィルタレイヤー"
+msgstr "新しい塗りつぶしレイヤーを追加"
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2397
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&File Layer..."
+#, kde-format
 msgctxt "action"
 msgid "Add &File Layer..."
-msgstr "ファイル参照レイヤー(&F)..."
+msgstr "ファイル参照レイヤーを追加(&F)..."
 
 #. i18n: context: Action (add_new_file_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2399
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add a new File Layer"
-msgstr "新しいフィルタレイヤー"
+msgstr "新しいファイル参照レイヤーを追加"
 
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2409
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add &Transparency Mask"
 msgstr "透過マスクを追加"
@@ -12543,82 +12530,74 @@ msgstr "透過マスクを追加"
 #. i18n: context: Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2411
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add a new Transparency Mask"
-msgstr "透過マスクを追加"
+msgstr "新しい透過マスクを追加"
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2421
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add &Filter Mask..."
-msgstr "フィルタマスク(&F)..."
+msgstr "フィルターマスクを追加(&F)..."
 
 #. i18n: context: Action (add_new_filter_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2423
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add a new Filter Mask"
-msgstr "フィルタマスクを追加"
+msgstr "新しいフィルターマスクを追加"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2433
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Colorize Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add &Colorize Mask"
-msgstr "自動塗り分けマスクを追加"
+msgstr "自動塗り分けマスクを追加(&C)"
 
 #. i18n: context: Action (add_new_colorize_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2435
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Colorize Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Colorize Mask"
-msgstr "自動塗り分けマスクを追加"
+msgstr "新しい自動塗り分けマスクを追加"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2445
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Transform Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add &Transform Mask"
-msgstr "変形マスクを追加"
+msgstr "変形マスクを追加(&T)"
 
 #. i18n: context: Action (add_new_transform_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2447
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Add Transform Mask"
+#, kde-format
 msgctxt "action"
 msgid "Add a new Transform Mask"
-msgstr "変形マスクを追加"
+msgstr "新しい変形マスクを追加"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2457
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add &Local Selection"
-msgstr "ローカル選択(&L)"
+msgstr "ローカル選択を追加(&L)"
 
 #. i18n: context: Action (add_new_selection_mask), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2459
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add a new Local Selection"
-msgstr "ローカル選択(&L)"
+msgstr "新しいローカル選択を追加"
 
 #. i18n: context: Action (isolate_active_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -12737,20 +12716,18 @@ msgstr "アルファ継承を切り替えます"
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2553
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "&Paint Layer"
+#, kde-format
 msgctxt "action"
 msgid "Add &Paint Layer"
-msgstr "ペイントレイヤー(&P)"
+msgstr "ペイントレイヤーを追加(&P)"
 
 #. i18n: context: Action (add_new_paint_layer), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
 #: krita/krita.action:2555
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "action"
 msgid "Add a new Paint Layer"
-msgstr "最初のレイヤーにする"
+msgstr "新しいペイントレイヤーを追加"
 
 #. i18n: context: Action (new_from_visible), Actions (Layers), ActionCollection (Krita)
 #. +> trunk5 stable5
@@ -26555,10 +26532,9 @@ msgstr "プレビュー"
 #. i18n: ectx: property (text), widget (QCheckBox, chkFilterSelectedFrames)
 #. +> trunk5 stable5
 #: libs/ui/forms/wdgfilterdialog.ui:74
-#, fuzzy, kde-format
-#| msgid "frame"
+#, kde-format
 msgid "Multiframe"
-msgstr "フレーム"
+msgstr "マルチフレーム"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCreateMaskEffect)
 #. +> trunk5 stable5
@@ -47661,8 +47637,7 @@ msgstr "対数目盛"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. +> trunk5
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:359
-#, fuzzy, kde-format
-#| msgid "Channel:"
+#, kde-format
 msgctxt "Channel as in Color Channels"
 msgid "Channel:"
 msgstr "チャンネル:"
@@ -47688,8 +47663,7 @@ msgstr "ドライバーチャンネル"
 #. +> trunk5
 #: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:7
 #: plugins/filters/convertheightnormalmap/convertheightnormalmap.action:9
-#, fuzzy, kde-format
-#| msgid "Height to Normal Map"
+#, kde-format
 msgctxt "action"
 msgid "Height to Normal Map Filter"
 msgstr "高さマップを法線マップに"
@@ -47711,21 +47685,21 @@ msgstr "高さマップを法線マップに"
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:20
 #, kde-format
 msgid "Prewitt"
-msgstr ""
+msgstr "プレヴィット"
 
 #. +> trunk5 stable5
 #: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:21
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:20
 #, kde-format
 msgid "Simple"
-msgstr ""
+msgstr "シンプル"
 
 #. +> trunk5 stable5
 #: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:21
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:20
 #, kde-format
 msgid "Sobel"
-msgstr "ソーベル輪郭検出"
+msgstr "ソーベル"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. +> trunk5 stable5
